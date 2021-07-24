@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pukul Tikus Tanah</title>
+</head>
+
+<body>
+    <h2><img src="./img/oon.png" height="140" width="500"></h2>
+    <div id="papanWaktu" style="display: none;">
+        <img class="" id="papan" width="200" src="./img/papan waktu.png">
+        <h2 id="waktu"></h2>
+    </div>
+    <button class="mulai btn-primary btn-rounded h3" onclick="mulai()">Mulai</button>
+    <h2 class="papanScor" style="display: none;"></h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="efek" src="suara dogi.m4a"></audio>
+    <script src="./js/script.js"></script>
+    <script src="./css/sweetalert2@11.js"></script>
+</body>
+
+</html>
